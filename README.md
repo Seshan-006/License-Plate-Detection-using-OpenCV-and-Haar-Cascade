@@ -70,6 +70,10 @@ else:
     print(" Haar Cascade loaded successfully.")
 ```
 
+<img width="515" height="290" alt="download" src="https://github.com/user-attachments/assets/5ea642c3-44e7-46b2-86ac-350563989e1a" />
+<img width="515" height="290" alt="download" src="https://github.com/user-attachments/assets/3d26a5ec-6d77-4cbd-b69c-e1c47343b84e" />
+
+
 # Apply Gaussian blur and histogram equalization to improve detection
 ```
 gray_blur = cv2.GaussianBlur(gray, (5, 5), 0)
@@ -81,9 +85,11 @@ plt.axis('off')
 plt.show()
 
 plates = plate_cascade.detectMultiScale(gray_eq, scaleFactor=1.1, minNeighbors=5)
+<img width="515" height="290" alt="download" src="https://github.com/user-attachments/assets/5dd9a6bf-2c53-4216-9057-819b88ef8899" />
 
 print(f"Detected {len(plates)} plate(s).")
 ```
+
 
 # Draw bounding boxes on a copy of the original image
 ```
@@ -99,17 +105,10 @@ plt.title("Detected License Plate(s)")
 plt.axis('off')
 plt.show()
 ```
+<img width="515" height="290" alt="download" src="https://github.com/user-attachments/assets/88a764e0-b30d-4837-a7a1-4c842d756526" />
 
 
-## Output
 
-<img width="635" height="502" alt="Screenshot 2025-11-15 113841" src="https://github.com/user-attachments/assets/80d99a2c-d118-4fca-8d47-878c26175654" />
-
-<img width="680" height="510" alt="Screenshot 2025-11-15 113848" src="https://github.com/user-attachments/assets/391c4d51-b92e-47d1-98a1-3305f8fc1bbb" />
-
-<img width="660" height="512" alt="Screenshot 2025-11-15 113857" src="https://github.com/user-attachments/assets/439defe2-aff8-4780-aabd-b692e715ef9b" />
-
-<img width="1014" height="385" alt="Screenshot 2025-11-15 113904" src="https://github.com/user-attachments/assets/c8b96b47-f7fb-419c-b943-acb379d6bb26" />
 
 
 
