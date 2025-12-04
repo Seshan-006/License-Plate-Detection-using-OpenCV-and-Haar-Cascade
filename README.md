@@ -1,7 +1,7 @@
 # License-Plate-Detection-using-OpenCV-and-Haar-Cascade
 
-### NAME: AANKARSH J
-### Reg no: 212223233001
+### NAME: SESHAN J
+### Reg no: 212224220092
 
 
 ## Project Overview
